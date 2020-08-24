@@ -1,1 +1,0 @@
-DEBUG    自定义封装:RequestsUtil.py:24 发送get请求

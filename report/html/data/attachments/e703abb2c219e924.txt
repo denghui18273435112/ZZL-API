@@ -1,3 +1,0 @@
-DEBUG    自定义封装:RequestsUtil.py:53 发送post请求
-DEBUG    自定义封装:RequestsUtil.py:53 发送post请求
-ERROR    AssertUilt:AssertUitl.py:58 不包含或者body错误; 接口请求所返回的bodybody is "{'order_id': '20200824052820000000001'}", 需要对比的bodyexpected_body is "{'order_id': '20200824031505000000001'}"

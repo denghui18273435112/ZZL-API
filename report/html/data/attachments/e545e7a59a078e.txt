@@ -1,2 +1,0 @@
-DEBUG    自定义封装:RequestsUtil.py:53 发送post请求
-ERROR    AssertUilt:AssertUitl.py:74 不包含或者body错误; 接口请求所返回的bodybody is {'username': ['该字段不能为空。'], 'password': ['该字段不能为空。']}, 需要对比的bodyexpected_body is {'password': ['该字段不能为空。']}
