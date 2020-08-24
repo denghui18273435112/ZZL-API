@@ -1,0 +1,51 @@
+[ {
+  "uid" : "a1057fde4a9f0831",
+  "name" : "case2",
+  "time" : {
+    "start" : 1586312225360,
+    "stop" : 1586312225360,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "36dccefe8c9a7d64",
+  "name" : "测试用例标题3",
+  "time" : {
+    "start" : 1586312225353,
+    "stop" : 1586312225353,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "da7511b1467b9192",
+  "name" : "测试用例标题1",
+  "time" : {
+    "start" : 1586312225346,
+    "stop" : 1586312225346,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "1121104f8ec4548a",
+  "name" : "case1",
+  "time" : {
+    "start" : 1586312225355,
+    "stop" : 1586312225355,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ac9058218d1b643d",
+  "name" : "测试用例标题2",
+  "time" : {
+    "start" : 1586312225349,
+    "stop" : 1586312225349,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+} ]

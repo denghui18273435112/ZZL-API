@@ -1,0 +1,77 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "接口测试，这是一个一级标签",
+    "children" : [ {
+      "name" : "这是一个二级标签：test1",
+      "children" : [ {
+        "name" : "测试用例标题1",
+        "uid" : "da7511b1467b9192",
+        "parentUid" : "0b0b56ee3ded521ecd5e080e24b627c2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586312225346,
+          "stop" : 1586312225346,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例标题2",
+        "uid" : "ac9058218d1b643d",
+        "parentUid" : "0b0b56ee3ded521ecd5e080e24b627c2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586312225349,
+          "stop" : 1586312225349,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0b0b56ee3ded521ecd5e080e24b627c2"
+    }, {
+      "name" : "这是一个二级标签：test3",
+      "children" : [ {
+        "name" : "测试用例标题3",
+        "uid" : "36dccefe8c9a7d64",
+        "parentUid" : "3b1eaab288f0ae765177941d730e0a93",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586312225353,
+          "stop" : 1586312225353,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3b1eaab288f0ae765177941d730e0a93"
+    }, {
+      "name" : "case1",
+      "uid" : "1121104f8ec4548a",
+      "parentUid" : "9fc9025614a535ab34213a0031adfe2f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1586312225355,
+        "stop" : 1586312225355,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "parameters" : [ "'case1'" ]
+    }, {
+      "name" : "case2",
+      "uid" : "a1057fde4a9f0831",
+      "parentUid" : "9fc9025614a535ab34213a0031adfe2f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1586312225360,
+        "stop" : 1586312225360,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "parameters" : [ "'case2'" ]
+    } ],
+    "uid" : "9fc9025614a535ab34213a0031adfe2f"
+  } ]
+}

@@ -1,0 +1,500 @@
+2020-08-24 10:26:40,398 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is "order_id", 需要对比的bodyexpected_body is {'body': {'order_id': '20200824021224000000001'}, 'code': 201}
+2020-08-24 10:27:03,263 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is "order_id", 需要对比的bodyexpected_body is {'body': {'order_id': '20200824021224000000001'}, 'code': 201}
+2020-08-24 10:28:59,007 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is order_id, 需要对比的bodyexpected_body is {'body': {'order_id': '20200824021224000000001'}, 'code': 201}
+2020-08-24 10:31:18,411 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is {"order_id": "20200824021224000000001"}, 需要对比的bodyexpected_body is {'body': {'order_id': '20200824021224000000001'}, 'code': 201}
+2020-08-24 10:31:47,139 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is {"order_id": "20200824021224000000001"}, 需要对比的bodyexpected_body is {'body': {'order_id': '20200824021224000000001'}, 'code': 201}
+2020-08-24 10:32:01,351 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is {'order_id': '20200824021224000000001'}, 需要对比的bodyexpected_body is {'body': {'order_id': '20200824021224000000001'}, 'code': 201}
+2020-08-24 10:32:36,362 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is {"order_id": "20200824021224000000001"}, 需要对比的bodyexpected_body is {'body': {'order_id': '20200824021224000000001'}, 'code': 201}
+2020-08-24 10:32:58,551 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is {"order_id": "20200824021224000000001"}, 需要对比的bodyexpected_body is {'body': {'order_id': '20200824021224000000001'}, 'code': 201}
+2020-08-24 10:37:15,069 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is {"order_id": "20200824021224000000001"}, 需要对比的bodyexpected_body is {'order_id': '20200824021224000000001'}
+2020-08-24 10:38:50,936 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is "{'order_id': '20200824021224000000001'}", 需要对比的bodyexpected_body is {'body': {'order_id': '20200824021224000000001'}, 'code': 201}
+2020-08-24 10:40:59,278 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is "{'order_id': '20200824021224000000001'}", 需要对比的bodyexpected_body is {'order_id': '20200824021224000000002'}
+2020-08-24 10:41:29,373 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is "{'order_id': '20200824021224000000001'}", 需要对比的bodyexpected_body is {'order_id': '20200824021224000000004'}
+2020-08-24 10:57:27,352 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is "non_field_errors': ['\u65e0\u6548\u6570\u636e\u3002\u671f\u5f85\u4e3a\u5b57\u5178\u7c7b\u578b\uff0c\u5f97\u5230\u7684\u662f str \u3002']", 需要对比的bodyexpected_body is {'non_field_errors': ['无效数据。期待为字典类型，得到的是 str 。']}
+2020-08-24 11:16:35,949 自定义封装 DEBUG 发送post请求
+2020-08-24 11:16:36,115 自定义封装 DEBUG 发送post请求
+2020-08-24 11:16:36,261 自定义封装 DEBUG 发送post请求
+2020-08-24 11:16:36,384 AssertUilt ERROR code error; code is 400,expected_code is 401
+2020-08-24 11:16:36,459 自定义封装 DEBUG 发送post请求
+2020-08-24 11:16:37,470 自定义封装 DEBUG 发送post请求
+2020-08-24 11:16:38,606 自定义封装 DEBUG 发送get请求
+2020-08-24 11:16:38,755 自定义封装 DEBUG 发送post请求
+2020-08-24 11:16:39,191 自定义封装 DEBUG 发送get请求
+2020-08-24 11:16:39,393 自定义封装 DEBUG 发送get请求
+2020-08-24 11:16:39,574 自定义封装 DEBUG 发送post请求
+2020-08-24 11:16:40,107 自定义封装 DEBUG 发送post请求
+2020-08-24 11:16:40,339 自定义封装 DEBUG 发送post请求
+2020-08-24 11:16:40,939 自定义封装 DEBUG 发送post请求
+2020-08-24 11:16:57,032 自定义封装 DEBUG 发送post请求
+2020-08-24 11:16:57,268 自定义封装 DEBUG 发送post请求
+2020-08-24 11:16:57,437 自定义封装 DEBUG 发送post请求
+2020-08-24 11:16:57,555 AssertUilt ERROR code error; code is 400,expected_code is 401
+2020-08-24 11:16:57,629 自定义封装 DEBUG 发送post请求
+2020-08-24 11:16:58,731 自定义封装 DEBUG 发送post请求
+2020-08-24 11:16:59,566 自定义封装 DEBUG 发送get请求
+2020-08-24 11:16:59,769 自定义封装 DEBUG 发送post请求
+2020-08-24 11:17:00,253 自定义封装 DEBUG 发送get请求
+2020-08-24 11:17:00,542 自定义封装 DEBUG 发送get请求
+2020-08-24 11:17:00,918 自定义封装 DEBUG 发送post请求
+2020-08-24 11:17:01,722 自定义封装 DEBUG 发送post请求
+2020-08-24 11:17:02,169 自定义封装 DEBUG 发送post请求
+2020-08-24 11:17:03,034 自定义封装 DEBUG 发送post请求
+2020-08-24 11:17:07,702 G:\pycharm\script\api_frame\utils\logUtil.py INFO 自动生成allure 报告成功
+2020-08-24 11:18:37,735 自定义封装 DEBUG 发送post请求
+2020-08-24 11:18:37,963 自定义封装 DEBUG 发送post请求
+2020-08-24 11:18:38,125 自定义封装 DEBUG 发送post请求
+2020-08-24 11:18:38,261 自定义封装 DEBUG 发送post请求
+2020-08-24 11:18:39,135 自定义封装 DEBUG 发送post请求
+2020-08-24 11:18:39,743 自定义封装 DEBUG 发送get请求
+2020-08-24 11:18:39,932 自定义封装 DEBUG 发送post请求
+2020-08-24 11:18:40,661 自定义封装 DEBUG 发送get请求
+2020-08-24 11:18:40,879 自定义封装 DEBUG 发送get请求
+2020-08-24 11:18:41,243 自定义封装 DEBUG 发送post请求
+2020-08-24 11:18:41,964 自定义封装 DEBUG 发送post请求
+2020-08-24 11:18:42,199 自定义封装 DEBUG 发送post请求
+2020-08-24 11:18:43,001 自定义封装 DEBUG 发送post请求
+2020-08-24 11:18:45,850 G:\pycharm\script\api_frame\utils\logUtil.py INFO 自动生成allure 报告成功
+2020-08-24 11:19:30,124 自定义封装 DEBUG 发送post请求
+2020-08-24 11:19:30,309 自定义封装 DEBUG 发送post请求
+2020-08-24 11:19:30,447 自定义封装 DEBUG 发送post请求
+2020-08-24 11:19:30,563 AssertUilt ERROR code error; code is 400,expected_code is 401
+2020-08-24 11:19:30,637 自定义封装 DEBUG 发送post请求
+2020-08-24 11:19:31,827 自定义封装 DEBUG 发送post请求
+2020-08-24 11:19:32,211 自定义封装 DEBUG 发送get请求
+2020-08-24 11:19:32,392 自定义封装 DEBUG 发送post请求
+2020-08-24 11:19:32,866 自定义封装 DEBUG 发送get请求
+2020-08-24 11:19:33,034 自定义封装 DEBUG 发送get请求
+2020-08-24 11:19:33,213 自定义封装 DEBUG 发送post请求
+2020-08-24 11:19:33,761 自定义封装 DEBUG 发送post请求
+2020-08-24 11:19:33,942 自定义封装 DEBUG 发送post请求
+2020-08-24 11:19:34,447 自定义封装 DEBUG 发送post请求
+2020-08-24 11:19:37,426 G:\pycharm\script\api_frame\utils\logUtil.py INFO 自动生成allure 报告成功
+2020-08-24 11:25:26,393 自定义封装 DEBUG 发送post请求
+2020-08-24 11:25:26,623 自定义封装 DEBUG 发送post请求
+2020-08-24 11:25:26,810 自定义封装 DEBUG 发送post请求
+2020-08-24 11:25:27,008 AssertUilt ERROR code error; code is 400,expected_code is 401
+2020-08-24 11:25:27,081 自定义封装 DEBUG 发送post请求
+2020-08-24 11:25:43,097 自定义封装 DEBUG 发送post请求
+2020-08-24 11:25:43,734 自定义封装 DEBUG 发送get请求
+2020-08-24 11:25:43,880 自定义封装 DEBUG 发送post请求
+2020-08-24 11:25:44,505 自定义封装 DEBUG 发送get请求
+2020-08-24 11:25:44,718 自定义封装 DEBUG 发送get请求
+2020-08-24 11:25:44,984 自定义封装 DEBUG 发送post请求
+2020-08-24 11:25:45,924 自定义封装 DEBUG 发送post请求
+2020-08-24 11:25:46,163 自定义封装 DEBUG 发送post请求
+2020-08-24 11:25:46,527 自定义封装 DEBUG 发送post请求
+2020-08-24 11:25:49,603 G:\pycharm\script\api_frame\utils\logUtil.py INFO 自动生成allure 报告成功
+2020-08-24 11:26:57,289 自定义封装 DEBUG 发送post请求
+2020-08-24 11:26:57,593 自定义封装 DEBUG 发送post请求
+2020-08-24 11:26:57,736 自定义封装 DEBUG 发送post请求
+2020-08-24 11:26:57,863 AssertUilt ERROR code error; code is 400,expected_code is 401
+2020-08-24 11:26:57,937 自定义封装 DEBUG 发送post请求
+2020-08-24 11:26:58,960 自定义封装 DEBUG 发送post请求
+2020-08-24 11:26:59,941 自定义封装 DEBUG 发送get请求
+2020-08-24 11:27:00,052 AssertUilt ERROR code error; code is 401,expected_code is 400
+2020-08-24 11:27:00,086 自定义封装 DEBUG 发送post请求
+2020-08-24 11:27:01,104 自定义封装 DEBUG 发送get请求
+2020-08-24 11:27:01,353 自定义封装 DEBUG 发送get请求
+2020-08-24 11:27:01,602 自定义封装 DEBUG 发送post请求
+2020-08-24 11:27:02,276 自定义封装 DEBUG 发送post请求
+2020-08-24 11:27:02,536 自定义封装 DEBUG 发送post请求
+2020-08-24 11:27:03,559 自定义封装 DEBUG 发送post请求
+2020-08-24 11:27:06,557 G:\pycharm\script\api_frame\utils\logUtil.py INFO 自动生成allure 报告成功
+2020-08-24 11:28:15,057 自定义封装 DEBUG 发送post请求
+2020-08-24 11:28:15,261 自定义封装 DEBUG 发送post请求
+2020-08-24 11:28:15,400 自定义封装 DEBUG 发送post请求
+2020-08-24 11:28:15,516 AssertUilt ERROR code error; code is 400,expected_code is 401
+2020-08-24 11:28:15,592 自定义封装 DEBUG 发送post请求
+2020-08-24 11:28:16,636 自定义封装 DEBUG 发送post请求
+2020-08-24 11:28:17,398 自定义封装 DEBUG 发送get请求
+2020-08-24 11:28:17,516 AssertUilt ERROR code error; code is 401,expected_code is 400
+2020-08-24 11:28:17,551 自定义封装 DEBUG 发送post请求
+2020-08-24 11:28:18,362 自定义封装 DEBUG 发送get请求
+2020-08-24 11:28:18,614 自定义封装 DEBUG 发送get请求
+2020-08-24 11:28:18,875 自定义封装 DEBUG 发送post请求
+2020-08-24 11:28:19,930 自定义封装 DEBUG 发送post请求
+2020-08-24 11:28:20,136 自定义封装 DEBUG 发送post请求
+2020-08-24 11:28:21,051 自定义封装 DEBUG 发送post请求
+2020-08-24 11:28:24,271 G:\pycharm\script\api_frame\utils\logUtil.py INFO 自动生成allure 报告成功
+2020-08-24 11:29:55,591 自定义封装 DEBUG 发送post请求
+2020-08-24 11:29:55,799 自定义封装 DEBUG 发送post请求
+2020-08-24 11:29:55,944 自定义封装 DEBUG 发送post请求
+2020-08-24 11:29:56,083 AssertUilt ERROR code error; code is 400,expected_code is 401
+2020-08-24 11:29:56,159 自定义封装 DEBUG 发送post请求
+2020-08-24 11:29:56,631 自定义封装 DEBUG 发送post请求
+2020-08-24 11:29:57,600 自定义封装 DEBUG 发送get请求
+2020-08-24 11:29:57,742 自定义封装 DEBUG 发送post请求
+2020-08-24 11:29:58,545 自定义封装 DEBUG 发送get请求
+2020-08-24 11:29:58,740 自定义封装 DEBUG 发送get请求
+2020-08-24 11:29:58,931 自定义封装 DEBUG 发送post请求
+2020-08-24 11:29:59,990 自定义封装 DEBUG 发送post请求
+2020-08-24 11:30:00,237 自定义封装 DEBUG 发送post请求
+2020-08-24 11:30:01,203 自定义封装 DEBUG 发送post请求
+2020-08-24 11:30:04,529 G:\pycharm\script\api_frame\utils\logUtil.py INFO 自动生成allure 报告成功
+2020-08-24 11:31:26,571 自定义封装 DEBUG 发送post请求
+2020-08-24 11:31:26,750 自定义封装 DEBUG 发送post请求
+2020-08-24 11:31:26,897 自定义封装 DEBUG 发送post请求
+2020-08-24 11:31:27,047 自定义封装 DEBUG 发送post请求
+2020-08-24 11:31:27,929 自定义封装 DEBUG 发送post请求
+2020-08-24 11:31:28,447 自定义封装 DEBUG 发送get请求
+2020-08-24 11:31:28,582 自定义封装 DEBUG 发送post请求
+2020-08-24 11:31:29,423 自定义封装 DEBUG 发送get请求
+2020-08-24 11:31:29,624 自定义封装 DEBUG 发送get请求
+2020-08-24 11:31:29,913 自定义封装 DEBUG 发送post请求
+2020-08-24 11:31:30,430 自定义封装 DEBUG 发送post请求
+2020-08-24 11:31:30,668 自定义封装 DEBUG 发送post请求
+2020-08-24 11:31:31,675 自定义封装 DEBUG 发送post请求
+2020-08-24 11:31:34,871 G:\pycharm\script\api_frame\utils\logUtil.py INFO 自动生成allure 报告成功
+2020-08-24 11:33:47,519 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is "non_field_errors': ['\u65e0\u6548\u6570\u636e\u3002\u671f\u5f85\u4e3a\u5b57\u5178\u7c7b\u578b\uff0c\u5f97\u5230\u7684\u662f str \u3002']", 需要对比的bodyexpected_body is "{'non_field_errors': ['\u65e0\u6548\u6570\u636e\u3002\u671f\u5f85\u4e3a\u5b57\u5178\u7c7b\u578b\uff0c\u5f97\u5230\u7684\u662f str \u3002']}"
+2020-08-24 11:34:42,573 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is "\u65e0\u6548\u6570\u636e", 需要对比的bodyexpected_body is "\u65e0\u6548\u6570\u636e2"
+2020-08-24 11:34:47,772 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is "\u65e0\u6548\u6570\u636e222", 需要对比的bodyexpected_body is "\u65e0\u6548\u6570\u636e2"
+2020-08-24 11:35:20,945 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is "222", 需要对比的bodyexpected_body is "2"
+2020-08-24 11:35:29,501 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is "2", 需要对比的bodyexpected_body is "222"
+2020-08-24 11:35:39,511 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is "2", 需要对比的bodyexpected_body is 222
+2020-08-24 11:35:44,360 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is 2, 需要对比的bodyexpected_body is 222
+2020-08-24 11:44:39,612 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is 2, 需要对比的bodyexpected_body is 222
+2020-08-24 11:45:12,337 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is 2, 需要对比的bodyexpected_body is 222
+2020-08-24 11:46:23,567 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is non_field_errors': ['无效数据。期待为字典类型，得到的是 str 。'], 需要对比的bodyexpected_body is {"non_field_errors": ["\u65e0\u6548\u6570\u636e\u3002\u671f\u5f85\u4e3a\u5b57\u5178\u7c7b\u578b\uff0c\u5f97\u5230\u7684\u662f str \u3002"]}
+2020-08-24 11:46:54,771 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is non_field_errors': ['无效数据。期待为字典类型，得到的是 str 。'], 需要对比的bodyexpected_body is "{'non_field_errors': ['\u65e0\u6548\u6570\u636e\u3002\u671f\u5f85\u4e3a\u5b57\u5178\u7c7b\u578b\uff0c\u5f97\u5230\u7684\u662f str \u3002']}"
+2020-08-24 11:47:28,162 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is non_field_errors': ['无效数据。期待为字典类型，得到的是 str 。'], 需要对比的bodyexpected_body is "{'non_field_errors': ['\u65e0\u6548\u6570\u636e\u3002\u671f\u5f85\u4e3a\u5b57\u5178\u7c7b\u578b\uff0c\u5f97\u5230\u7684\u662f str \u3002']}"
+2020-08-24 11:48:13,434 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is {'non_field_errors': ['无效数据。期待为字典类型，得到的是 str 。']}, 需要对比的bodyexpected_body is "{'non_field_errors': ['\u65e0\u6548\u6570\u636e\u3002\u671f\u5f85\u4e3a\u5b57\u5178\u7c7b\u578b\uff0c\u5f97\u5230\u7684\u662f str \u3002']}"
+2020-08-24 11:49:39,089 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is "{'non_field_errors': ['\u65e0\u6548\u6570\u636e\u3002\u671f\u5f85\u4e3a\u5b57\u5178\u7c7b\u578b\uff0c\u5f97\u5230\u7684\u662f str \u3002']}", 需要对比的bodyexpected_body is "{'non_field_errors': ['\u65e0\u6548\u6570\u636e\u3002\u671f\u5f85\u4e3a\u5b57\u5178\u7c7b\u578b\uff0c\u5f97\u5230\u7684\u662f str \u3002'], 'dasd': 'dad'}"
+2020-08-24 11:50:16,139 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is "{'non_field_errors': ['\u65e0\u6548\u6570\u636e\u3002\u671f\u5f85\u4e3a\u5b57\u5178\u7c7b\u578b\uff0c\u5f97\u5230\u7684\u662f str \u3002']}", 需要对比的bodyexpected_body is "{'non_field_errors': ['\u65e0\u6548\u6570\u636e\u3002\u671f\u5f85\u4e3a\u5b57\u5178\u7c7b\u578b\uff0c\u5f97\u5230\u7684\u662f str \u3002'], 'dasd': 'dad'}"
+2020-08-24 11:50:41,914 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is {"non_field_errors": ["\u65e0\u6548\u6570\u636e\u3002\u671f\u5f85\u4e3a\u5b57\u5178\u7c7b\u578b\uff0c\u5f97\u5230\u7684\u662f str \u3002"]}, 需要对比的bodyexpected_body is {"non_field_errors": ["\u65e0\u6548\u6570\u636e\u3002\u671f\u5f85\u4e3a\u5b57\u5178\u7c7b\u578b\uff0c\u5f97\u5230\u7684\u662f str \u3002"], "dasd": "dad"}
+2020-08-24 11:51:12,169 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is {"non_field_errors": ["\u65e0\u6548\u6570\u636e\u3002\u671f\u5f85\u4e3a\u5b57\u5178\u7c7b\u578b\uff0c\u5f97\u5230\u7684\u662f str \u3002"]}, 需要对比的bodyexpected_body is {"non_field_errors": ["\u65e0\u6548\u6570\u636e\u3002\u671f\u5f85\u4e3a\u5b57\u5178\u7c7b\u578b\uff0c\u5f97\u5230\u7684\u662f str \u3002"], "dasd": "dad"}
+2020-08-24 13:40:14,478 自定义封装 DEBUG 发送post请求
+2020-08-24 13:40:14,734 自定义封装 DEBUG 发送post请求
+2020-08-24 13:40:14,889 自定义封装 DEBUG 发送post请求
+2020-08-24 13:40:15,020 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is "{'username': ['\u8be5\u5b57\u6bb5\u4e0d\u80fd\u4e3a\u7a7a\u3002'], 'password': ['\u8be5\u5b57\u6bb5\u4e0d\u80fd\u4e3a\u7a7a\u3002']}", 需要对比的bodyexpected_body is "{'password': ['\u8be5\u5b57\u6bb5\u4e0d\u80fd\u4e3a\u7a7a\u3002'], 'username': ['\u8be5\u5b57\u6bb5\u4e0d\u80fd\u4e3a\u7a7a\u3002']}"
+2020-08-24 13:40:15,095 自定义封装 DEBUG 发送post请求
+2020-08-24 13:40:15,922 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is "{'token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJlbWFpbCI6Ijk1MjY3MzYzOEBxcS5jb20iLCJ1c2VybmFtZSI6InB5dGhvbiIsImV4cCI6MTU5ODMzMzI5Nn0.GZCHt4IX2V3PvZOkp7Iwz1lJGmrmgE74QUErhcGyXCc', 'user_id': 1, 'username': 'python'}", 需要对比的bodyexpected_body is " {'user_id': 1, 'username': 'python'}"
+2020-08-24 13:40:15,951 自定义封装 DEBUG 发送post请求
+2020-08-24 13:40:16,660 自定义封装 DEBUG 发送get请求
+2020-08-24 13:40:16,814 自定义封装 DEBUG 发送post请求
+2020-08-24 13:40:17,381 自定义封装 DEBUG 发送get请求
+2020-08-24 13:40:17,597 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is "{'id': 1, 'username': 'python', 'mobile': '17701397029', 'email': '952673638@qq.com', 'email_active': True}", 需要对比的bodyexpected_body is "{'id': 1, 'username': 'python', 'mobile': '17701397029', 'email': '952673638@qq.com'}"
+2020-08-24 13:40:17,628 自定义封装 DEBUG 发送get请求
+2020-08-24 13:40:17,833 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is "{'count': 14, 'next': 'http://211.103.136.242:8064/categories/115/skus/?page=2', 'previous': None, 'results': [{'id': 3, 'name': 'Apple iPhone 8 Plus (A1864) 64GB \u91d1\u8272 \u79fb\u52a8\u8054\u901a\u7535\u4fe14G\u624b\u673a', 'price': '6499.00', 'default_image_url': 'http://172.17.0.139:804/group1/M00/00/02/CtM3BVrRZCqAUxp9AAFti6upbx41220032', 'comments': 0}, {'id': 4, 'name': 'Apple iPhone 8 Plus (A1864) 256GB \u91d1\u8272 \u79fb\u52a8\u8054\u901a\u7535\u4fe14G\u624b\u673a', 'price': '7988.00', 'default_image_url': 'http://172.17.0.139:804/group1/M00/00/02/CtM3BVrRZa6ANO_sAAFti6upbx40753757', 'comments': 0}]}", 需要对比的bodyexpected_body is "{'code': 200}"
+2020-08-24 13:40:17,868 自定义封装 DEBUG 发送post请求
+2020-08-24 13:40:18,420 自定义封装 DEBUG 发送post请求
+2020-08-24 13:40:18,667 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is "{'sku_id': 3, 'count': 1, 'selected': True}", 需要对比的bodyexpected_body is "{'sku_id': 3, 'count': 1}"
+2020-08-24 13:40:18,702 自定义封装 DEBUG 发送post请求
+2020-08-24 13:40:19,601 自定义封装 DEBUG 发送post请求
+2020-08-24 13:40:19,968 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is "{'order_id': '20200824052820000000001'}", 需要对比的bodyexpected_body is "{'order_id': '20200824031505000000001'}"
+2020-08-24 13:40:22,950 G:\pycharm\script\api_frame\utils\logUtil.py INFO 自动生成allure 报告成功
+2020-08-24 13:43:55,210 自定义封装 DEBUG 发送post请求
+2020-08-24 13:43:55,410 自定义封装 DEBUG 发送post请求
+2020-08-24 13:43:55,558 自定义封装 DEBUG 发送post请求
+2020-08-24 13:43:55,701 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is {'username': ['该字段不能为空。'], 'password': ['该字段不能为空。']}, 需要对比的bodyexpected_body is {'password': ['该字段不能为空。'], 'username': ['该字段不能为空。']}
+2020-08-24 13:43:55,777 自定义封装 DEBUG 发送post请求
+2020-08-24 13:43:56,851 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is {'token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJlbWFpbCI6Ijk1MjY3MzYzOEBxcS5jb20iLCJ1c2VybmFtZSI6InB5dGhvbiIsImV4cCI6MTU5ODMzMzUxN30.3uVQhTJkCHnykWU2I4a1rDAK-lwku3SQHL4GML4szRY', 'user_id': 1, 'username': 'python'}, 需要对比的bodyexpected_body is  {'user_id': 1, 'username': 'python'}
+2020-08-24 13:43:56,880 自定义封装 DEBUG 发送post请求
+2020-08-24 13:43:57,521 自定义封装 DEBUG 发送get请求
+2020-08-24 13:43:57,693 自定义封装 DEBUG 发送post请求
+2020-08-24 13:43:58,502 自定义封装 DEBUG 发送get请求
+2020-08-24 13:43:58,756 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is {'id': 1, 'username': 'python', 'mobile': '17701397029', 'email': '952673638@qq.com', 'email_active': True}, 需要对比的bodyexpected_body is {'id': 1, 'username': 'python', 'mobile': '17701397029', 'email': '952673638@qq.com'}
+2020-08-24 13:43:58,785 自定义封装 DEBUG 发送get请求
+2020-08-24 13:43:59,086 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is {'count': 14, 'next': 'http://211.103.136.242:8064/categories/115/skus/?page=2', 'previous': None, 'results': [{'id': 3, 'name': 'Apple iPhone 8 Plus (A1864) 64GB 金色 移动联通电信4G手机', 'price': '6499.00', 'default_image_url': 'http://172.17.0.139:804/group1/M00/00/02/CtM3BVrRZCqAUxp9AAFti6upbx41220032', 'comments': 0}, {'id': 4, 'name': 'Apple iPhone 8 Plus (A1864) 256GB 金色 移动联通电信4G手机', 'price': '7988.00', 'default_image_url': 'http://172.17.0.139:804/group1/M00/00/02/CtM3BVrRZa6ANO_sAAFti6upbx40753757', 'comments': 0}]}, 需要对比的bodyexpected_body is {'code': 200}
+2020-08-24 13:43:59,121 自定义封装 DEBUG 发送post请求
+2020-08-24 13:43:59,972 自定义封装 DEBUG 发送post请求
+2020-08-24 13:44:00,198 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is {'sku_id': 3, 'count': 1, 'selected': True}, 需要对比的bodyexpected_body is {'sku_id': 3, 'count': 1}
+2020-08-24 13:44:00,232 自定义封装 DEBUG 发送post请求
+2020-08-24 13:44:01,060 自定义封装 DEBUG 发送post请求
+2020-08-24 13:44:01,542 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is {'order_id': '20200824053202000000001'}, 需要对比的bodyexpected_body is {'order_id': '20200824031505000000001'}
+2020-08-24 13:44:04,547 G:\pycharm\script\api_frame\utils\logUtil.py INFO 自动生成allure 报告成功
+2020-08-24 13:47:41,624 自定义封装 DEBUG 发送post请求
+2020-08-24 13:47:41,846 自定义封装 DEBUG 发送post请求
+2020-08-24 13:47:42,025 自定义封装 DEBUG 发送post请求
+2020-08-24 13:47:42,151 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is {'username': ['该字段不能为空。'], 'password': ['该字段不能为空。']}, 需要对比的bodyexpected_body is {'password': ['该字段不能为空。']}
+2020-08-24 13:47:42,227 自定义封装 DEBUG 发送post请求
+2020-08-24 13:47:42,766 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is {'token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJlbWFpbCI6Ijk1MjY3MzYzOEBxcS5jb20iLCJ1c2VybmFtZSI6InB5dGhvbiIsImV4cCI6MTU5ODMzMzc0M30.4wrN7hmN0Gc8MIB70E1lHg3OX-Br34j2eFu2_0fFvxo', 'user_id': 1, 'username': 'python'}, 需要对比的bodyexpected_body is  {'user_id': 1, 'username': 'python'}
+2020-08-24 13:47:42,795 自定义封装 DEBUG 发送post请求
+2020-08-24 13:47:43,689 自定义封装 DEBUG 发送get请求
+2020-08-24 13:47:43,843 自定义封装 DEBUG 发送post请求
+2020-08-24 13:47:44,375 自定义封装 DEBUG 发送get请求
+2020-08-24 13:47:44,539 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is {'id': 1, 'username': 'python', 'mobile': '17701397029', 'email': '952673638@qq.com', 'email_active': True}, 需要对比的bodyexpected_body is {'id': 1, 'username': 'python', 'mobile': '17701397029', 'email': '952673638@qq.com'}
+2020-08-24 13:47:44,570 自定义封装 DEBUG 发送get请求
+2020-08-24 13:47:44,739 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is {'count': 14, 'next': 'http://211.103.136.242:8064/categories/115/skus/?page=2', 'previous': None, 'results': [{'id': 3, 'name': 'Apple iPhone 8 Plus (A1864) 64GB 金色 移动联通电信4G手机', 'price': '6499.00', 'default_image_url': 'http://172.17.0.139:804/group1/M00/00/02/CtM3BVrRZCqAUxp9AAFti6upbx41220032', 'comments': 0}, {'id': 4, 'name': 'Apple iPhone 8 Plus (A1864) 256GB 金色 移动联通电信4G手机', 'price': '7988.00', 'default_image_url': 'http://172.17.0.139:804/group1/M00/00/02/CtM3BVrRZa6ANO_sAAFti6upbx40753757', 'comments': 0}]}, 需要对比的bodyexpected_body is {'code': 200}
+2020-08-24 13:47:44,773 自定义封装 DEBUG 发送post请求
+2020-08-24 13:47:45,289 自定义封装 DEBUG 发送post请求
+2020-08-24 13:47:45,501 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is {'sku_id': 3, 'count': 1, 'selected': True}, 需要对比的bodyexpected_body is {'sku_id': 3, 'count': 1}
+2020-08-24 13:47:45,535 自定义封装 DEBUG 发送post请求
+2020-08-24 13:47:46,036 自定义封装 DEBUG 发送post请求
+2020-08-24 13:47:46,420 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is {'order_id': '20200824053547000000001'}, 需要对比的bodyexpected_body is {'order_id': ''}
+2020-08-24 13:47:49,475 G:\pycharm\script\api_frame\utils\logUtil.py INFO 自动生成allure 报告成功
+2020-08-24 14:07:53,179 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is {'non_field_errors': 'DASD', 'dasd': 'dad', 'dasd2': 'dad'}, 需要对比的bodyexpected_body is {'non_field_errors': 'DASD', 'dasd': 'dad'}
+2020-08-24 14:09:39,296 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is {'non_field_errors': 'DASD', 'dasd': 'dad', 'dasd2': 'dad'}, 需要对比的bodyexpected_body is {'non_field_errors': 'DASD', 'dasd': 'dad'}
+2020-08-24 14:11:15,786 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is {'non_field_errors': 'DASD', 'dasd': 'dad', 'dasd2': 'dad'}, 需要对比的bodyexpected_body is {'non_field_errors': 'DASD', 'dasd': 'dad'}
+2020-08-24 14:11:45,330 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is {'non_field_errors': 'DASD', 'dasd': 'dad', 'dasd2': 'dad'}, 需要对比的bodyexpected_body is {'non_field_errors': 'DASD', 'dasd': 'dad'}
+2020-08-24 14:14:01,581 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is {'non_field_errors': 'DASD', 'dasd': 'dad', 'dasd2': 'dad'}, 需要对比的bodyexpected_body is {'non_field_errors': 'DASD', 'dasd': 'dad'}
+2020-08-24 14:16:15,507 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is {'non_field_errors': 'DASD', 'dasd': 'dad', 'dasd2': 'dad'}, 需要对比的bodyexpected_body is {'non_field_errors': 'DASD', 'dasd': 'da'}
+2020-08-24 14:19:17,021 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is {'count': 14, 'next': 'http://211.103.136.242:8064/categories/115/skus/?page=2', 'previous': None, 'results': [{'comments': 0, 'default_image_url': 'http://172.17.0.139:804/group1/M00/00/02/CtM3BVrRZCqAUxp9AAFti6upbx41220032', 'id': 3, 'name': 'Apple iPhone 8 Plus (A1864) 64GB 金色 移动联通电信4G手机', 'price': '6499.00'}, {'comments': 0, 'default_image_url': 'http://172.17.0.139:804/group1/M00/00/02/CtM3BVrRZa6ANO_sAAFti6upbx40753757', 'id': 4, 'name': 'Apple iPhone 8 Plus (A1864) 256GB 金色 移动联通电信4G手机', 'price': '7988.00'}]}, 需要对比的bodyexpected_body is {'code': 200}
+2020-08-24 14:24:20,372 自定义封装 DEBUG 发送post请求
+2020-08-24 14:24:20,816 自定义封装 DEBUG 发送post请求
+2020-08-24 14:24:21,010 自定义封装 DEBUG 发送post请求
+2020-08-24 14:24:21,170 自定义封装 DEBUG 发送post请求
+2020-08-24 14:24:21,737 自定义封装 DEBUG 发送post请求
+2020-08-24 14:24:22,327 自定义封装 DEBUG 发送get请求
+2020-08-24 14:24:22,492 自定义封装 DEBUG 发送post请求
+2020-08-24 14:24:22,941 自定义封装 DEBUG 发送get请求
+2020-08-24 14:24:23,127 自定义封装 DEBUG 发送get请求
+2020-08-24 14:24:23,441 自定义封装 DEBUG 发送post请求
+2020-08-24 14:24:23,992 自定义封装 DEBUG 发送post请求
+2020-08-24 14:24:24,189 自定义封装 DEBUG 发送post请求
+2020-08-24 14:24:24,999 自定义封装 DEBUG 发送post请求
+2020-08-24 14:24:28,509 G:\pycharm\script\api_frame\utils\logUtil.py INFO 自动生成allure 报告成功
+2020-08-24 14:25:35,862 自定义封装 DEBUG 发送post请求
+2020-08-24 14:25:36,049 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is {'non_field_errors': ['无效数据。期待为字典类型，得到的是 str 。']}, 需要对比的bodyexpected_body is {'non_field_errors': ['无效数据。期待为字典类型，得到的是 str 。']}
+2020-08-24 14:25:36,159 自定义封装 DEBUG 发送post请求
+2020-08-24 14:25:36,313 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is {'username': ['该字段不能为空。']}, 需要对比的bodyexpected_body is {'username': ['该字段不能为空。']}
+2020-08-24 14:25:36,346 自定义封装 DEBUG 发送post请求
+2020-08-24 14:25:36,521 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is {'username': ['该字段不能为空。'], 'password': ['该字段不能为空。']}, 需要对比的bodyexpected_body is {'password': ['该字段不能为空。']}
+2020-08-24 14:25:36,549 自定义封装 DEBUG 发送post请求
+2020-08-24 14:25:37,065 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is {'token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJlbWFpbCI6Ijk1MjY3MzYzOEBxcS5jb20iLCJ1c2VybmFtZSI6InB5dGhvbiIsImV4cCI6MTU5ODMzNjAxN30.AYgvFg2r6DOXMpVgTtSmiRRePWve6TNXDdM8XD6kIS8', 'user_id': 1, 'username': 'python'}, 需要对比的bodyexpected_body is  {'user_id': 1, 'username': 'python'}
+2020-08-24 14:25:37,097 自定义封装 DEBUG 发送post请求
+2020-08-24 14:25:37,720 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is {'non_field_errors': ['无法使用提供的认证信息登录。']}, 需要对比的bodyexpected_body is {'non_field_errors': ['无法使用提供的认证信息登录。']}
+2020-08-24 14:25:37,748 自定义封装 DEBUG 发送get请求
+2020-08-24 14:25:37,939 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is {'detail': '身份认证信息未提供。'}, 需要对比的bodyexpected_body is {'detail': '身份认证信息未提供。'}
+2020-08-24 14:25:37,974 自定义封装 DEBUG 发送post请求
+2020-08-24 14:25:38,605 自定义封装 DEBUG 发送get请求
+2020-08-24 14:25:38,821 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is {'id': 1, 'username': 'python', 'mobile': '17701397029', 'email': '952673638@qq.com', 'email_active': True}, 需要对比的bodyexpected_body is {'id': 1, 'username': 'python', 'mobile': '17701397029', 'email': '952673638@qq.com'}
+2020-08-24 14:25:38,851 自定义封装 DEBUG 发送get请求
+2020-08-24 14:25:39,104 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is {'count': 14, 'next': 'http://211.103.136.242:8064/categories/115/skus/?page=2', 'previous': None, 'results': [{'id': 3, 'name': 'Apple iPhone 8 Plus (A1864) 64GB 金色 移动联通电信4G手机', 'price': '6499.00', 'default_image_url': 'http://172.17.0.139:804/group1/M00/00/02/CtM3BVrRZCqAUxp9AAFti6upbx41220032', 'comments': 0}, {'id': 4, 'name': 'Apple iPhone 8 Plus (A1864) 256GB 金色 移动联通电信4G手机', 'price': '7988.00', 'default_image_url': 'http://172.17.0.139:804/group1/M00/00/02/CtM3BVrRZa6ANO_sAAFti6upbx40753757', 'comments': 0}]}, 需要对比的bodyexpected_body is {'code': 200}
+2020-08-24 14:25:39,139 自定义封装 DEBUG 发送post请求
+2020-08-24 14:25:39,579 自定义封装 DEBUG 发送post请求
+2020-08-24 14:25:39,767 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is {'sku_id': 3, 'count': 1, 'selected': True}, 需要对比的bodyexpected_body is {'sku_id': 3, 'count': 1}
+2020-08-24 14:25:39,801 自定义封装 DEBUG 发送post请求
+2020-08-24 14:25:40,726 自定义封装 DEBUG 发送post请求
+2020-08-24 14:25:41,145 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is {'order_id': '20200824061341000000001'}, 需要对比的bodyexpected_body is {'order_id': ''}
+2020-08-24 14:25:44,338 G:\pycharm\script\api_frame\utils\logUtil.py INFO 自动生成allure 报告成功
+2020-08-24 14:26:33,244 自定义封装 DEBUG 发送post请求
+2020-08-24 14:26:33,547 自定义封装 DEBUG 发送post请求
+2020-08-24 14:26:33,700 自定义封装 DEBUG 发送post请求
+2020-08-24 14:26:33,867 自定义封装 DEBUG 发送post请求
+2020-08-24 14:26:35,072 自定义封装 DEBUG 发送post请求
+2020-08-24 14:26:36,089 自定义封装 DEBUG 发送get请求
+2020-08-24 14:26:36,256 自定义封装 DEBUG 发送post请求
+2020-08-24 14:26:37,210 自定义封装 DEBUG 发送get请求
+2020-08-24 14:26:37,486 自定义封装 DEBUG 发送get请求
+2020-08-24 14:26:37,795 自定义封装 DEBUG 发送post请求
+2020-08-24 14:26:38,620 自定义封装 DEBUG 发送post请求
+2020-08-24 14:26:38,864 自定义封装 DEBUG 发送post请求
+2020-08-24 14:26:39,759 自定义封装 DEBUG 发送post请求
+2020-08-24 14:26:43,511 G:\pycharm\script\api_frame\utils\logUtil.py INFO 自动生成allure 报告成功
+2020-08-24 14:30:42,415 自定义封装 DEBUG 发送post请求
+2020-08-24 14:30:42,583 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is {'non_field_errors': ['无效数据。期待为字典类型，得到的是 str 。']}, 需要对比的bodyexpected_body is {'non_field_errors': ['无效数据。期待为字典类型，得到的是 str 。']}
+2020-08-24 14:30:42,663 自定义封装 DEBUG 发送post请求
+2020-08-24 14:30:42,793 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is {'username': ['该字段不能为空。']}, 需要对比的bodyexpected_body is {'username': ['该字段不能为空。']}
+2020-08-24 14:30:42,824 自定义封装 DEBUG 发送post请求
+2020-08-24 14:30:42,958 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is {'username': ['该字段不能为空。'], 'password': ['该字段不能为空。']}, 需要对比的bodyexpected_body is {'password': ['该字段不能为空。']}
+2020-08-24 14:30:42,988 自定义封装 DEBUG 发送post请求
+2020-08-24 14:30:43,842 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is {'token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJlbWFpbCI6Ijk1MjY3MzYzOEBxcS5jb20iLCJ1c2VybmFtZSI6InB5dGhvbiIsImV4cCI6MTU5ODMzNjMyNH0.FNxBb6F6qG93Zp78l7e1rvU8gFN5p2L5biikM85eCBw', 'user_id': 1, 'username': 'python'}, 需要对比的bodyexpected_body is  {'user_id': 1, 'username': 'python'}
+2020-08-24 14:30:43,872 自定义封装 DEBUG 发送post请求
+2020-08-24 14:30:44,619 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is {'non_field_errors': ['无法使用提供的认证信息登录。']}, 需要对比的bodyexpected_body is {'non_field_errors': ['无法使用提供的认证信息登录。']}
+2020-08-24 14:30:44,647 自定义封装 DEBUG 发送get请求
+2020-08-24 14:30:44,783 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is {'detail': '身份认证信息未提供。'}, 需要对比的bodyexpected_body is {'detail': '身份认证信息未提供。'}
+2020-08-24 14:30:44,819 自定义封装 DEBUG 发送post请求
+2020-08-24 14:30:45,785 自定义封装 DEBUG 发送get请求
+2020-08-24 14:30:46,049 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is {'id': 1, 'username': 'python', 'mobile': '17701397029', 'email': '952673638@qq.com', 'email_active': True}, 需要对比的bodyexpected_body is {'id': 1, 'username': 'python', 'mobile': '17701397029', 'email': '952673638@qq.com'}
+2020-08-24 14:30:46,078 自定义封装 DEBUG 发送get请求
+2020-08-24 14:30:46,334 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is {'count': 14, 'next': 'http://211.103.136.242:8064/categories/115/skus/?page=2', 'previous': None, 'results': [{'id': 3, 'name': 'Apple iPhone 8 Plus (A1864) 64GB 金色 移动联通电信4G手机', 'price': '6499.00', 'default_image_url': 'http://172.17.0.139:804/group1/M00/00/02/CtM3BVrRZCqAUxp9AAFti6upbx41220032', 'comments': 0}, {'id': 4, 'name': 'Apple iPhone 8 Plus (A1864) 256GB 金色 移动联通电信4G手机', 'price': '7988.00', 'default_image_url': 'http://172.17.0.139:804/group1/M00/00/02/CtM3BVrRZa6ANO_sAAFti6upbx40753757', 'comments': 0}]}, 需要对比的bodyexpected_body is {'code': 200}
+2020-08-24 14:30:46,371 自定义封装 DEBUG 发送post请求
+2020-08-24 14:30:47,186 自定义封装 DEBUG 发送post请求
+2020-08-24 14:30:47,400 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is {'sku_id': 3, 'count': 1, 'selected': True}, 需要对比的bodyexpected_body is {'sku_id': 3, 'count': 1}
+2020-08-24 14:30:47,436 自定义封装 DEBUG 发送post请求
+2020-08-24 14:30:48,241 自定义封装 DEBUG 发送post请求
+2020-08-24 14:30:48,858 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is {'order_id': '20200824061849000000001'}, 需要对比的bodyexpected_body is {'order_id': ''}
+2020-08-24 14:30:52,144 G:\pycharm\script\api_frame\utils\logUtil.py INFO 自动生成allure 报告成功
+2020-08-24 14:32:42,582 自定义封装 DEBUG 发送post请求
+2020-08-24 14:32:42,870 自定义封装 DEBUG 发送post请求
+2020-08-24 14:32:43,031 自定义封装 DEBUG 发送post请求
+2020-08-24 14:32:43,207 自定义封装 DEBUG 发送post请求
+2020-08-24 14:32:44,174 自定义封装 DEBUG 发送post请求
+2020-08-24 14:32:45,097 自定义封装 DEBUG 发送get请求
+2020-08-24 14:32:45,258 自定义封装 DEBUG 发送post请求
+2020-08-24 14:32:46,188 自定义封装 DEBUG 发送get请求
+2020-08-24 14:32:46,413 自定义封装 DEBUG 发送get请求
+2020-08-24 14:32:46,669 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is {'count': 14, 'next': 'http://211.103.136.242:8064/categories/115/skus/?page=2', 'previous': None, 'results': [{'id': 3, 'name': 'Apple iPhone 8 Plus (A1864) 64GB 金色 移动联通电信4G手机', 'price': '6499.00', 'default_image_url': 'http://172.17.0.139:804/group1/M00/00/02/CtM3BVrRZCqAUxp9AAFti6upbx41220032', 'comments': 0}, {'id': 4, 'name': 'Apple iPhone 8 Plus (A1864) 256GB 金色 移动联通电信4G手机', 'price': '7988.00', 'default_image_url': 'http://172.17.0.139:804/group1/M00/00/02/CtM3BVrRZa6ANO_sAAFti6upbx40753757', 'comments': 0}]}, 需要对比的bodyexpected_body is {'code': 200}
+2020-08-24 14:32:46,753 自定义封装 DEBUG 发送post请求
+2020-08-24 14:32:47,601 自定义封装 DEBUG 发送post请求
+2020-08-24 14:32:47,814 自定义封装 DEBUG 发送post请求
+2020-08-24 14:32:48,768 自定义封装 DEBUG 发送post请求
+2020-08-24 14:32:49,325 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is {'order_id': '20200824062049000000001'}, 需要对比的bodyexpected_body is {'order_id': ''}
+2020-08-24 14:32:52,635 G:\pycharm\script\api_frame\utils\logUtil.py INFO 自动生成allure 报告成功
+2020-08-24 14:34:38,553 自定义封装 DEBUG 发送post请求
+2020-08-24 14:34:38,772 自定义封装 DEBUG 发送post请求
+2020-08-24 14:34:38,975 自定义封装 DEBUG 发送post请求
+2020-08-24 14:34:39,167 自定义封装 DEBUG 发送post请求
+2020-08-24 14:34:39,953 自定义封装 DEBUG 发送post请求
+2020-08-24 14:34:40,658 自定义封装 DEBUG 发送get请求
+2020-08-24 14:34:55,895 自定义封装 DEBUG 发送post请求
+2020-08-24 14:34:56,833 自定义封装 DEBUG 发送get请求
+2020-08-24 14:34:57,031 自定义封装 DEBUG 发送get请求
+2020-08-24 14:34:57,228 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is {'count': 14, 'next': 'http://211.103.136.242:8064/categories/115/skus/?page=2', 'previous': None, 'results': [{'id': 3, 'name': 'Apple iPhone 8 Plus (A1864) 64GB 金色 移动联通电信4G手机', 'price': '6499.00', 'default_image_url': 'http://172.17.0.139:804/group1/M00/00/02/CtM3BVrRZCqAUxp9AAFti6upbx41220032', 'comments': 0}, {'id': 4, 'name': 'Apple iPhone 8 Plus (A1864) 256GB 金色 移动联通电信4G手机', 'price': '7988.00', 'default_image_url': 'http://172.17.0.139:804/group1/M00/00/02/CtM3BVrRZa6ANO_sAAFti6upbx40753757', 'comments': 0}]}, 需要对比的bodyexpected_body is {'code': 200}
+2020-08-24 14:34:57,312 自定义封装 DEBUG 发送post请求
+2020-08-24 14:34:58,005 自定义封装 DEBUG 发送post请求
+2020-08-24 14:34:58,251 自定义封装 DEBUG 发送post请求
+2020-08-24 14:34:59,264 自定义封装 DEBUG 发送post请求
+2020-08-24 14:34:59,601 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is {'order_id': '20200824062300000000001'}, 需要对比的bodyexpected_body is {'order_id': ''}
+2020-08-24 14:35:02,913 G:\pycharm\script\api_frame\utils\logUtil.py INFO 自动生成allure 报告成功
+2020-08-24 14:37:16,665 自定义封装 DEBUG 发送post请求
+2020-08-24 14:37:16,970 自定义封装 DEBUG 发送post请求
+2020-08-24 14:37:17,123 自定义封装 DEBUG 发送post请求
+2020-08-24 14:37:17,315 自定义封装 DEBUG 发送post请求
+2020-08-24 14:37:18,374 自定义封装 DEBUG 发送post请求
+2020-08-24 14:37:19,316 自定义封装 DEBUG 发送get请求
+2020-08-24 14:37:19,486 自定义封装 DEBUG 发送post请求
+2020-08-24 14:37:20,556 自定义封装 DEBUG 发送get请求
+2020-08-24 14:37:20,775 自定义封装 DEBUG 发送get请求
+2020-08-24 14:37:20,979 AssertUilt ERROR code error; code is 200,expected_code is 201
+2020-08-24 14:37:21,058 自定义封装 DEBUG 发送post请求
+2020-08-24 14:37:21,757 自定义封装 DEBUG 发送post请求
+2020-08-24 14:37:21,955 自定义封装 DEBUG 发送post请求
+2020-08-24 14:37:22,454 自定义封装 DEBUG 发送post请求
+2020-08-24 14:37:22,837 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is {'order_id': '20200824062523000000001'}, 需要对比的bodyexpected_body is {'order_id': ''}
+2020-08-24 14:37:26,210 G:\pycharm\script\api_frame\utils\logUtil.py INFO 自动生成allure 报告成功
+2020-08-24 14:44:55,773 自定义封装 DEBUG 发送post请求
+2020-08-24 14:44:55,996 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is {'code': 400, 'body': {'non_field_errors': ['无效数据。期待为字典类型，得到的是 str 。']}}, 需要对比的bodyexpected_body is {'non_field_errors': ['无效数据。期待为字典类型，得到的是 str 。']}
+2020-08-24 14:44:56,074 自定义封装 DEBUG 发送post请求
+2020-08-24 14:44:56,212 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is {'code': 400, 'body': {'username': ['该字段不能为空。']}}, 需要对比的bodyexpected_body is {'username': ['该字段不能为空。']}
+2020-08-24 14:44:56,241 自定义封装 DEBUG 发送post请求
+2020-08-24 14:44:56,395 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is {'code': 400, 'body': {'username': ['该字段不能为空。'], 'password': ['该字段不能为空。']}}, 需要对比的bodyexpected_body is {'password': ['该字段不能为空。']}
+2020-08-24 14:44:56,424 自定义封装 DEBUG 发送post请求
+2020-08-24 14:44:56,987 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is {'code': 200, 'body': {'token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJlbWFpbCI6Ijk1MjY3MzYzOEBxcS5jb20iLCJ1c2VybmFtZSI6InB5dGhvbiIsImV4cCI6MTU5ODMzNzE3N30.P4vxsWufb3UHW-sKPCj0X2R2l_8ywqP1068vA7UDyHA', 'user_id': 1, 'username': 'python'}}, 需要对比的bodyexpected_body is {'user_id': 1, 'username': 'python'}
+2020-08-24 14:44:57,015 自定义封装 DEBUG 发送post请求
+2020-08-24 14:44:58,032 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is {'code': 400, 'body': {'non_field_errors': ['无法使用提供的认证信息登录。']}}, 需要对比的bodyexpected_body is {'non_field_errors': ['无法使用提供的认证信息登录。']}
+2020-08-24 14:44:58,061 自定义封装 DEBUG 发送get请求
+2020-08-24 14:44:58,182 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is {'code': 401, 'body': {'detail': '身份认证信息未提供。'}}, 需要对比的bodyexpected_body is {'detail': '身份认证信息未提供。'}
+2020-08-24 14:44:58,215 自定义封装 DEBUG 发送post请求
+2020-08-24 14:44:58,726 自定义封装 DEBUG 发送get请求
+2020-08-24 14:44:59,058 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is {'code': 200, 'body': {'id': 1, 'username': 'python', 'mobile': '17701397029', 'email': '952673638@qq.com', 'email_active': True}}, 需要对比的bodyexpected_body is {'id': 1, 'username': 'python', 'mobile': '17701397029', 'email': '952673638@qq.com'}
+2020-08-24 14:44:59,087 自定义封装 DEBUG 发送get请求
+2020-08-24 14:44:59,273 AssertUilt ERROR code error; code is 200,expected_code is 201
+2020-08-24 14:44:59,307 自定义封装 DEBUG 发送post请求
+2020-08-24 14:44:59,975 自定义封装 DEBUG 发送post请求
+2020-08-24 14:45:00,257 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is {'code': 201, 'body': {'sku_id': 3, 'count': 1, 'selected': True}}, 需要对比的bodyexpected_body is {'sku_id': 3, 'count': 1}
+2020-08-24 14:45:00,292 自定义封装 DEBUG 发送post请求
+2020-08-24 14:45:00,847 自定义封装 DEBUG 发送post请求
+2020-08-24 14:45:01,391 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is {'code': 201, 'body': {'order_id': '20200824063302000000001'}}, 需要对比的bodyexpected_body is {'order_id': ''}
+2020-08-24 14:45:14,425 G:\pycharm\script\api_frame\utils\logUtil.py INFO 自动生成allure 报告成功
+2020-08-24 14:46:53,233 自定义封装 DEBUG 发送post请求
+2020-08-24 14:46:53,515 自定义封装 DEBUG 发送post请求
+2020-08-24 14:46:53,690 自定义封装 DEBUG 发送post请求
+2020-08-24 14:46:53,864 自定义封装 DEBUG 发送post请求
+2020-08-24 14:46:54,642 自定义封装 DEBUG 发送post请求
+2020-08-24 14:46:55,481 自定义封装 DEBUG 发送get请求
+2020-08-24 14:46:55,635 自定义封装 DEBUG 发送post请求
+2020-08-24 14:46:56,527 自定义封装 DEBUG 发送get请求
+2020-08-24 14:46:56,810 自定义封装 DEBUG 发送get请求
+2020-08-24 14:46:57,004 AssertUilt ERROR code error; code is 200,expected_code is 201
+2020-08-24 14:46:57,085 自定义封装 DEBUG 发送post请求
+2020-08-24 14:46:58,014 自定义封装 DEBUG 发送post请求
+2020-08-24 14:46:58,248 自定义封装 DEBUG 发送post请求
+2020-08-24 14:46:59,283 自定义封装 DEBUG 发送post请求
+2020-08-24 14:46:59,831 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is {'order_id': '20200824063500000000001'}, 需要对比的bodyexpected_body is {'order_id': ''}
+2020-08-24 14:47:03,129 G:\pycharm\script\api_frame\utils\logUtil.py INFO 自动生成allure 报告成功
+2020-08-24 14:54:04,673 自定义封装 DEBUG 发送post请求
+2020-08-24 14:54:04,961 自定义封装 DEBUG 发送post请求
+2020-08-24 14:54:05,121 自定义封装 DEBUG 发送post请求
+2020-08-24 14:54:05,281 自定义封装 DEBUG 发送post请求
+2020-08-24 14:54:06,062 自定义封装 DEBUG 发送post请求
+2020-08-24 14:54:06,535 自定义封装 DEBUG 发送get请求
+2020-08-24 14:54:06,691 自定义封装 DEBUG 发送post请求
+2020-08-24 14:54:07,219 自定义封装 DEBUG 发送get请求
+2020-08-24 14:54:07,440 自定义封装 DEBUG 发送get请求
+2020-08-24 14:54:07,612 AssertUilt ERROR code error; code is 200,expected_code is 201
+2020-08-24 14:54:07,691 自定义封装 DEBUG 发送post请求
+2020-08-24 14:54:08,176 自定义封装 DEBUG 发送post请求
+2020-08-24 14:54:08,409 自定义封装 DEBUG 发送post请求
+2020-08-24 14:54:08,893 自定义封装 DEBUG 发送post请求
+2020-08-24 14:54:09,631 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is {'order_id': '20200824064210000000001'}, 需要对比的bodyexpected_body is {'order_id': ' '}
+2020-08-24 14:54:12,981 G:\pycharm\script\api_frame\utils\logUtil.py INFO 自动生成allure 报告成功
+2020-08-24 14:54:58,848 自定义封装 DEBUG 发送post请求
+2020-08-24 14:54:59,037 自定义封装 DEBUG 发送post请求
+2020-08-24 14:54:59,197 自定义封装 DEBUG 发送post请求
+2020-08-24 14:54:59,390 自定义封装 DEBUG 发送post请求
+2020-08-24 14:55:00,315 自定义封装 DEBUG 发送post请求
+2020-08-24 14:55:00,942 自定义封装 DEBUG 发送get请求
+2020-08-24 14:55:01,096 自定义封装 DEBUG 发送post请求
+2020-08-24 14:55:01,670 自定义封装 DEBUG 发送get请求
+2020-08-24 14:55:01,888 自定义封装 DEBUG 发送get请求
+2020-08-24 14:55:02,057 AssertUilt ERROR code error; code is 200,expected_code is 201
+2020-08-24 14:55:02,142 自定义封装 DEBUG 发送post请求
+2020-08-24 14:55:02,803 自定义封装 DEBUG 发送post请求
+2020-08-24 14:55:03,007 自定义封装 DEBUG 发送post请求
+2020-08-24 14:55:03,514 自定义封装 DEBUG 发送post请求
+2020-08-24 14:55:03,789 AssertUilt ERROR 不包含或者body错误; 接口请求所返回的bodybody is {'order_id': '20200824064304000000001'}, 需要对比的bodyexpected_body is {'order_id': ''}
+2020-08-24 14:55:07,506 G:\pycharm\script\api_frame\utils\logUtil.py INFO 自动生成allure 报告成功
+2020-08-24 14:55:22,794 自定义封装 DEBUG 发送post请求
+2020-08-24 14:55:23,012 自定义封装 DEBUG 发送post请求
+2020-08-24 14:55:23,162 自定义封装 DEBUG 发送post请求
+2020-08-24 14:55:23,319 自定义封装 DEBUG 发送post请求
+2020-08-24 14:55:24,455 自定义封装 DEBUG 发送post请求
+2020-08-24 14:55:25,532 自定义封装 DEBUG 发送get请求
+2020-08-24 14:55:25,686 自定义封装 DEBUG 发送post请求
+2020-08-24 14:55:26,757 自定义封装 DEBUG 发送get请求
+2020-08-24 14:55:26,997 自定义封装 DEBUG 发送get请求
+2020-08-24 14:55:27,246 AssertUilt ERROR code error; code is 200,expected_code is 201
+2020-08-24 14:55:27,323 自定义封装 DEBUG 发送post请求
+2020-08-24 14:55:28,187 自定义封装 DEBUG 发送post请求
+2020-08-24 14:55:28,420 自定义封装 DEBUG 发送post请求
+2020-08-24 14:55:29,295 自定义封装 DEBUG 发送post请求
+2020-08-24 14:55:33,231 G:\pycharm\script\api_frame\utils\logUtil.py INFO 自动生成allure 报告成功
+2020-08-24 15:00:10,677 自定义封装 DEBUG 发送post请求
+2020-08-24 15:00:10,909 自定义封装 DEBUG 发送post请求
+2020-08-24 15:00:11,068 自定义封装 DEBUG 发送post请求
+2020-08-24 15:00:11,208 自定义封装 DEBUG 发送post请求
+2020-08-24 15:00:11,659 自定义封装 DEBUG 发送post请求
+2020-08-24 15:00:12,025 自定义封装 DEBUG 发送get请求
+2020-08-24 15:00:12,174 自定义封装 DEBUG 发送post请求
+2020-08-24 15:00:12,611 自定义封装 DEBUG 发送get请求
+2020-08-24 15:00:12,787 自定义封装 DEBUG 发送get请求
+2020-08-24 15:00:13,048 AssertUilt ERROR code error; code is 200,expected_code is 201
+2020-08-24 15:00:13,128 自定义封装 DEBUG 发送post请求
+2020-08-24 15:00:13,548 自定义封装 DEBUG 发送post请求
+2020-08-24 15:00:13,735 自定义封装 DEBUG 发送post请求
+2020-08-24 15:00:14,344 自定义封装 DEBUG 发送post请求
+2020-08-24 15:00:18,191 G:\pycharm\script\api_frame\utils\logUtil.py INFO 自动生成allure 报告成功
+2020-08-24 15:08:23,851 自定义封装 DEBUG 发送post请求
+2020-08-24 15:08:24,119 自定义封装 DEBUG 发送post请求
+2020-08-24 15:08:24,264 自定义封装 DEBUG 发送post请求
+2020-08-24 15:08:24,418 自定义封装 DEBUG 发送post请求
+2020-08-24 15:08:25,519 自定义封装 DEBUG 发送post请求
+2020-08-24 15:08:26,513 自定义封装 DEBUG 发送get请求
+2020-08-24 15:08:26,670 自定义封装 DEBUG 发送post请求
+2020-08-24 15:08:27,111 自定义封装 DEBUG 发送get请求
+2020-08-24 15:08:27,335 自定义封装 DEBUG 发送get请求
+2020-08-24 15:08:27,567 自定义封装 DEBUG 发送post请求
+2020-08-24 15:08:28,486 自定义封装 DEBUG 发送post请求
+2020-08-24 15:08:28,777 自定义封装 DEBUG 发送post请求
+2020-08-24 15:08:29,308 自定义封装 DEBUG 发送post请求
+2020-08-24 15:08:33,241 G:\pycharm\script\api_frame\utils\logUtil.py INFO 自动生成allure 报告成功
+2020-08-24 15:14:21,668 自定义封装 DEBUG 发送post请求
+2020-08-24 15:14:21,985 自定义封装 DEBUG 发送post请求
+2020-08-24 15:14:22,172 自定义封装 DEBUG 发送post请求
+2020-08-24 15:14:22,345 自定义封装 DEBUG 发送post请求
+2020-08-24 15:14:23,350 自定义封装 DEBUG 发送post请求
+2020-08-24 15:14:24,594 自定义封装 DEBUG 发送get请求
+2020-08-24 15:14:24,808 自定义封装 DEBUG 发送post请求
+2020-08-24 15:14:25,476 自定义封装 DEBUG 发送get请求
+2020-08-24 15:14:25,685 自定义封装 DEBUG 发送get请求
+2020-08-24 15:14:25,946 自定义封装 DEBUG 发送post请求
+2020-08-24 15:14:26,325 自定义封装 DEBUG 发送post请求
+2020-08-24 15:14:26,579 自定义封装 DEBUG 发送post请求
+2020-08-24 15:14:27,303 自定义封装 DEBUG 发送post请求
+2020-08-24 15:14:31,157 G:\pycharm\script\api_frame\utils\logUtil.py INFO 自动生成allure 报告成功
+2020-08-24 17:03:39,299 自定义封装 DEBUG 发送post请求
+2020-08-24 17:07:52,562 自定义封装 DEBUG 发送post请求
+2020-08-24 17:07:52,772 自定义封装 DEBUG 发送post请求
+2020-08-24 17:07:52,929 自定义封装 DEBUG 发送post请求
+2020-08-24 17:07:53,077 自定义封装 DEBUG 发送post请求
+2020-08-24 17:07:54,164 自定义封装 DEBUG 发送post请求
+2020-08-24 17:07:54,759 自定义封装 DEBUG 发送get请求
+2020-08-24 17:07:54,917 自定义封装 DEBUG 发送post请求
+2020-08-24 17:07:55,708 自定义封装 DEBUG 发送get请求
+2020-08-24 17:08:10,975 自定义封装 DEBUG 发送get请求
+2020-08-24 17:08:11,248 自定义封装 DEBUG 发送post请求
+2020-08-24 17:08:12,102 自定义封装 DEBUG 发送post请求
+2020-08-24 17:08:12,351 自定义封装 DEBUG 发送post请求
+2020-08-24 17:08:13,249 自定义封装 DEBUG 发送post请求
+2020-08-24 17:08:17,852 G:\pycharm\script\api_frame\utils\logUtil.py INFO 自动生成allure 报告成功

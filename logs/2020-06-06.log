@@ -1,0 +1,6 @@
+2020-06-06 11:13:50,038 自定义封装 DEBUG 发送post请求
+2020-06-06 11:13:51,188 AssertUilt ERROR 不包含或者body错误; body is "{'username': 'python', 'user_id': 1, 'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTE0OTg3MzYsInVzZXJuYW1lIjoicHl0aG9uIiwiZW1haWwiOiI5NTI2NzM2MzhAcXEuY29tIiwidXNlcl9pZCI6MX0.TPC_LQUqSjE_V1s0HK_YFvdM6Q8hZanxbxnyRMDFZCE'}",expected_body is user_id': 1, 'username': 'python'
+2020-06-06 11:13:51,286 自定义封装 DEBUG 发送post请求
+2020-06-06 11:13:52,364 自定义封装 DEBUG 发送get请求
+2020-06-06 11:13:56,771 G:\pycharm\script\api_frame\utils\logUtil.py INFO 自动生成allure 报告成功
+2020-06-06 11:13:57,262 G:\pycharm\script\api_frame\utils\logUtil.py INFO 邮件发送成功

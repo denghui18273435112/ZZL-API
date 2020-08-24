@@ -1,0 +1,308 @@
+{
+  "uid" : "69e8f035cb39977c",
+  "name" : "Info_2获取个人信息正确",
+  "fullName" : "testcase.test_excel_case.TestExcel#test_run",
+  "historyId" : "82997c90e812bc3b4427310b48c280c0",
+  "time" : {
+    "start" : 1598260074895,
+    "stop" : 1598260090956,
+    "duration" : 16061
+  },
+  "description" : "<font color='red'>当前执行时间: </font> 2020-08-24 17:08:10<Br/><font color='red'>请求URL: </font> http://211.103.136.242:8064/user/<Br/><font color='red'>请求类型: </font>get<Br/><font color='red'>期望状态码: </font>200.0<Br/><font color='red'>实际状态码: </font>200<Br/><font color='red'>期望结果: </font>{'email': '952673638@qq.com',\n 'id': 1,\n 'mobile': '17701397029',\n 'username': 'python'}<Br/><font color='red'>实际结果: </font>{'email': '952673638@qq.com',\n 'email_active': True,\n 'id': 1,\n 'mobile': '17701397029',\n 'username': 'python'}",
+  "descriptionHtml" : "<p><font color='red'>当前执行时间: </font> 2020-08-24 17:08:10<Br/><font color='red'>请求URL: </font> http://211.103.136.242:8064/user/<Br/><font color='red'>请求类型: </font>get<Br/><font color='red'>期望状态码: </font>200.0<Br/><font color='red'>实际状态码: </font>200<Br/><font color='red'>期望结果: </font>{'email': '952673638@qq.com',\n'id': 1,\n'mobile': '17701397029',\n'username': 'python'}<Br/><font color='red'>实际结果: </font>{'email': '952673638@qq.com',\n'email_active': True,\n'id': 1,\n'mobile': '17701397029',\n'username': 'python'}</p>\n",
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "<font color='red'>当前执行时间: </font> 2020-08-24 17:08:10<Br/><font color='red'>请求URL: </font> http://211.103.136.242:8064/user/<Br/><font color='red'>请求类型: </font>get<Br/><font color='red'>期望状态码: </font>200.0<Br/><font color='red'>实际状态码: </font>200<Br/><font color='red'>期望结果: </font>{'email': '952673638@qq.com',\n 'id': 1,\n 'mobile': '17701397029',\n 'username': 'python'}<Br/><font color='red'>实际结果: </font>{'email': '952673638@qq.com',\n 'email_active': True,\n 'id': 1,\n 'mobile': '17701397029',\n 'username': 'python'}",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "60c412dca271aaec",
+      "name" : "log",
+      "source" : "60c412dca271aaec.txt",
+      "type" : "text/plain",
+      "size" : 120
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "美多商城接口测试"
+  }, {
+    "name" : "story",
+    "value" : "个人信息"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_excel_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestExcel"
+  }, {
+    "name" : "host",
+    "value" : "SZPC012"
+  }, {
+    "name" : "thread",
+    "value" : "29472-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_excel_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'用例ID': 'Info_2', '模块': '个人信息', '接口名称': '获取个人信息正确', '请求URL': '/user/', '前置条件': 'login_4', '请求类型': 'get', '请求参数类型': '', '请求参数': '', '预期结果': \"{'id': 1, 'username': 'python', 'mobile': '17701397029', 'email': '952673638@qq.com'}\", '实际结果': '', '备注': '', '是否运行': 'Y', 'headers': '{\"Authorization\": \"JWT ${token}$\"}', 'cookies': '', 'status_code': 200.0, '数据库验证': \"select id,username,mobile,email from tb_users where username='python'\"}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "792e8b2602d53845",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598253264787,
+        "stop" : 1598253265665,
+        "duration" : 878
+      }
+    }, {
+      "uid" : "775119f5d9db17d6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598252906648,
+        "stop" : 1598252907317,
+        "duration" : 669
+      }
+    }, {
+      "uid" : "e2fccfd89a4993ad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598252412150,
+        "stop" : 1598252412768,
+        "duration" : 618
+      }
+    }, {
+      "uid" : "1588fdb8db0e6209",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598252125666,
+        "stop" : 1598252126977,
+        "duration" : 1311
+      }
+    }, {
+      "uid" : "251955712a431d02",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598252101075,
+        "stop" : 1598252101868,
+        "duration" : 793
+      }
+    }, {
+      "uid" : "f766b288abee442e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598252046670,
+        "stop" : 1598252047421,
+        "duration" : 751
+      }
+    }, {
+      "uid" : "7086771042b905d3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598251615614,
+        "stop" : 1598251616791,
+        "duration" : 1177
+      }
+    }, {
+      "uid" : "30c03f3c3fe07576",
+      "status" : "failed",
+      "statusDetails" : "AssertionError",
+      "time" : {
+        "start" : 1598251498194,
+        "stop" : 1598251499059,
+        "duration" : 865
+      }
+    }, {
+      "uid" : "4277eaa67d2998a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598251039464,
+        "stop" : 1598251040753,
+        "duration" : 1289
+      }
+    }, {
+      "uid" : "b97ac65532828b00",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598250895873,
+        "stop" : 1598250897011,
+        "duration" : 1138
+      }
+    }, {
+      "uid" : "ce15407448258492",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598250765235,
+        "stop" : 1598250766394,
+        "duration" : 1159
+      }
+    }, {
+      "uid" : "5ec8b27191da507b",
+      "status" : "broken",
+      "statusDetails" : "UnboundLocalError: local variable 'expect_result' referenced before assignment",
+      "time" : {
+        "start" : 1598250644795,
+        "stop" : 1598250646050,
+        "duration" : 1255
+      }
+    }, {
+      "uid" : "244c764133e7d30b",
+      "status" : "broken",
+      "statusDetails" : "ValueError: dictionary update sequence element #0 has length 1; 2 is required",
+      "time" : {
+        "start" : 1598250396234,
+        "stop" : 1598250397459,
+        "duration" : 1225
+      }
+    }, {
+      "uid" : "9ffd0282bc2a6beb",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'str' object has no attribute 'keys'",
+      "time" : {
+        "start" : 1598250337952,
+        "stop" : 1598250338821,
+        "duration" : 869
+      }
+    }, {
+      "uid" : "aa80205a2e5cdb11",
+      "status" : "broken",
+      "statusDetails" : "TypeError: eval() arg 1 must be a string, bytes or code object",
+      "time" : {
+        "start" : 1598250262469,
+        "stop" : 1598250263100,
+        "duration" : 631
+      }
+    }, {
+      "uid" : "2c658da599db3b9e",
+      "status" : "failed",
+      "statusDetails" : "AssertionError",
+      "time" : {
+        "start" : 1598248063822,
+        "stop" : 1598248064541,
+        "duration" : 719
+      }
+    }, {
+      "uid" : "664c1f3f79d98869",
+      "status" : "failed",
+      "statusDetails" : "AssertionError",
+      "time" : {
+        "start" : 1598247837672,
+        "stop" : 1598247838757,
+        "duration" : 1085
+      }
+    }, {
+      "uid" : "ca3ac561b3651618",
+      "status" : "failed",
+      "statusDetails" : "AssertionError",
+      "time" : {
+        "start" : 1598247616791,
+        "stop" : 1598247617597,
+        "duration" : 806
+      }
+    }, {
+      "uid" : "c8d16719fe389c4c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598239888560,
+        "stop" : 1598239889605,
+        "duration" : 1045
+      }
+    }, {
+      "uid" : "43d1056520a40680",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598239797720,
+        "stop" : 1598239798720,
+        "duration" : 1000
+      }
+    }, {
+      "uid" : "6b11ab18d1bacfe5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598239697530,
+        "stop" : 1598239698589,
+        "duration" : 1059
+      }
+    }, {
+      "uid" : "866bd0475fedd902",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598239620065,
+        "stop" : 1598239621335,
+        "duration" : 1270
+      }
+    }, {
+      "uid" : "7eea0b4902ec6fe4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598239543858,
+        "stop" : 1598239544697,
+        "duration" : 839
+      }
+    }, {
+      "uid" : "27be60d3ac9aa677",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598239172369,
+        "stop" : 1598239173014,
+        "duration" : 645
+      }
+    }, {
+      "uid" : "7990d9a10f48198e",
+      "status" : "broken",
+      "statusDetails" : "ValueError: dictionary update sequence element #0 has length 1; 2 is required",
+      "time" : {
+        "start" : 1598239119910,
+        "stop" : 1598239120852,
+        "duration" : 942
+      }
+    }, {
+      "uid" : "2eb6912edb209b19",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598239019747,
+        "stop" : 1598239020522,
+        "duration" : 775
+      }
+    }, {
+      "uid" : "d64ff263f5633e5b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598238998733,
+        "stop" : 1598238999373,
+        "duration" : 640
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "69e8f035cb39977c.json",
+  "parameterValues" : [ "{'用例ID': 'Info_2', '模块': '个人信息', '接口名称': '获取个人信息正确', '请求URL': '/user/', '前置条件': 'login_4', '请求类型': 'get', '请求参数类型': '', '请求参数': '', '预期结果': \"{'id': 1, 'username': 'python', 'mobile': '17701397029', 'email': '952673638@qq.com'}\", '实际结果': '', '备注': '', '是否运行': 'Y', 'headers': '{\"Authorization\": \"JWT ${token}$\"}', 'cookies': '', 'status_code': 200.0, '数据库验证': \"select id,username,mobile,email from tb_users where username='python'\"}" ]
+}

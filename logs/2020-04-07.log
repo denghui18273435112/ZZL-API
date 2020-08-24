@@ -1,0 +1,22 @@
+2020-04-07 10:15:47,472 G:/pycharm/script/api_frame/utils/logUtil.py DEBUG this debug isSS
+2020-04-07 10:23:17,426 AssertUilt ERROR code error; code is 200,expected_code is 300
+2020-04-07 10:31:01,361 G:/pycharm/script/api_frame/utils/logUtil.py DEBUG this debug isSS
+2020-04-07 10:35:26,052 G:/pycharm/script/api_frame/utils/logUtil.py DEBUG this debug isSS
+2020-04-07 10:38:49,457 G:/pycharm/script/api_frame/utils/logUtil.py DEBUG this debug isSS
+2020-04-07 10:39:39,856 G:/pycharm/script/api_frame/utils/logUtil.py DEBUG this debug isSS
+2020-04-07 10:40:29,933 G:/pycharm/script/api_frame/utils/logUtil.py DEBUG this debug isSS
+2020-04-07 11:05:32,122 G:/pycharm/script/api_frame/utils/logUtil.py DEBUG 好好学习
+2020-04-07 11:16:30,482 G:/pycharm/script/api_frame/utils/logUtil.py DEBUG 好好学习
+2020-04-07 11:29:07,584 G:/pycharm/script/api_frame/utils/logUtil.py DEBUG POST请求
+2020-04-07 11:29:34,201 AssertUilt ERROR code error; code is 200,expected_code is 300
+2020-04-07 11:30:45,661 AssertUilt ERROR code error; code is 200,expected_code is 300
+2020-04-07 11:31:22,054 AssertUilt ERROR code error; code is 200,expected_code is 300
+2020-04-07 11:32:21,724 AssertUilt ERROR code error; code is 200,expected_code is 300
+2020-04-07 11:33:26,056 AssertUilt ERROR code error; code is 200,expected_code is 300
+2020-04-07 11:36:17,187 G:/pycharm/script/api_frame/utils/logUtil.py DEBUG POST请求
+2020-04-07 15:35:08,611 自定义封装 DEBUG 发送post请求
+2020-04-07 15:35:10,740 自定义封装 DEBUG 发送post请求
+2020-04-07 16:51:11,873 自定义封装 DEBUG 发送post请求
+2020-04-07 16:51:14,129 自定义封装 DEBUG 发送get请求
+2020-04-07 16:51:30,339 自定义封装 DEBUG 发送post请求
+2020-04-07 16:51:31,787 自定义封装 DEBUG 发送post请求

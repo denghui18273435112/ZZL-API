@@ -1,0 +1,2 @@
+DEBUG    自定义封装:RequestsUtil.py:53 发送post请求
+ERROR    AssertUilt:AssertUitl.py:58 不包含或者body错误; 接口请求所返回的bodybody is "{'token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJlbWFpbCI6Ijk1MjY3MzYzOEBxcS5jb20iLCJ1c2VybmFtZSI6InB5dGhvbiIsImV4cCI6MTU5ODMzMzI5Nn0.GZCHt4IX2V3PvZOkp7Iwz1lJGmrmgE74QUErhcGyXCc', 'user_id': 1, 'username': 'python'}", 需要对比的bodyexpected_body is " {'user_id': 1, 'username': 'python'}"
