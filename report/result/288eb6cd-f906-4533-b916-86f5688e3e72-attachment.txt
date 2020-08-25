@@ -1,2 +1,0 @@
-DEBUG    自定义封装:RequestsUtil.py:50 发送get请求
-ERROR    AssertUilt:AssertUitl.py:74 不包含或者body错误; 接口请求所返回的bodybody is {'detail': '身份认证信息未提供。'}, 需要对比的bodyexpected_body is {'detail': '身份认证信息未提供。'}

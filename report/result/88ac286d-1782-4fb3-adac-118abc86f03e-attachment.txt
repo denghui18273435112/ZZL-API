@@ -1,3 +1,0 @@
-DEBUG    自定义封装:RequestsUtil.py:53 发送post请求
-DEBUG    自定义封装:RequestsUtil.py:50 发送get请求
-ERROR    AssertUilt:AssertUitl.py:74 不包含或者body错误; 接口请求所返回的bodybody is {'id': 1, 'username': 'python', 'mobile': '17701397029', 'email': '952673638@qq.com', 'email_active': True}, 需要对比的bodyexpected_body is {'id': 1, 'username': 'python', 'mobile': '17701397029', 'email': '952673638@qq.com'}

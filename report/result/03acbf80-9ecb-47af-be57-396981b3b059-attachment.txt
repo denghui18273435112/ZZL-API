@@ -1,2 +1,0 @@
-DEBUG    自定义封装:RequestsUtil.py:53 发送post请求
-ERROR    AssertUilt:AssertUitl.py:24 code error; code is 400,expected_code is 401

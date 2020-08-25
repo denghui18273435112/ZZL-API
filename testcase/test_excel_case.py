@@ -191,8 +191,8 @@ class TestExcel:
 if __name__ == '__main__':
     #pytest运行前会提前运行pytest.ini文件的内容; 运行文件test_excel_case.py;alluredir pytest报告生成路径;后面更路径
     pytest.main(["-s","test_excel_case.py","--alluredir",report_path])
-    Base.allure_report(report_path,report_html_path)
-    Base.send_mail(content=report_path,title="测试自动发送邮件")
+    # Base.allure_report(report_path,report_html_path)
+    # Base.send_mail(content=report_path,title="测试自动发送邮件")
 
 
 
