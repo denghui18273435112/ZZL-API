@@ -5,7 +5,6 @@ from config.Conf import ConfigYaml
 
 #重构requests库中的post方法、get方法  使用中
 class Request:
-
 	def __init__(self):
 		self.log = my_log("自定义封装")
 
@@ -52,6 +51,8 @@ class Request:
 		return self.request_api(url,method="post",**kwargs)
 
 if __name__ == '__main__':
-	url = ConfigYaml().get_conf_url()+"/authorizations/"
+	url1=ConfigYaml().get_test
+	url = ConfigYaml().get_testYaml_question_bank_url()
 	data = {"username":"python","password":"12345678"}
-	print(Request().post(url=url,data=data))
+	# print(Request().post(url=url,data=data))  +"/authorizations/"
+	print(url1)

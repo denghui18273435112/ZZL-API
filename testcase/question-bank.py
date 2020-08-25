@@ -1,24 +1,35 @@
 import  requests
 from utils.RequestsUtil import *
 from utils.RequestsUtil import Request
+from config.Conf import ConfigYaml
 
+
+
+class question_bank:
+    def question_bank_add(self,url):
+        url="http://192.168.1.202:8114//manageapi/testquestionbank/add"
+        data = {
+                      "bank_type": 1,
+                      "name": "23 ",
+                      "organization_id": 1}
+        cookies={"safetyapplication":"o3wmzA7NrDc7vPGj38-r17r8pBKzQiNyP6bOKWAd97VkmqaGH-yy5-rNJEP7fLwBTGDbIg7v-WBTxjz473rJcpov3rg20ZH2-BgiYXIXOgODGiHOMIKWW2Jht3q1qG6BQo14U4EykpP6kyL8e7gWulpbh8iop6u7tsKSsA8FPplWUOafHUwyTpLflLr9RC5f1KgshB_cloX9F8mF8tQzr6EyqNzdKmgz3tt51anl1ESqzEC8IQNj5iM7tdopUEZZKBZb9gWdWi5NCUV8Ir43lGb3v71a8WiFFyO1HzdiTYT73VoyQIg6q-ZItEjtigv6FTg58YHYvHBQXmjjorBvfxg850lSJXvptFlO0ACI_HFHPwXxlKxdeR-SJPe1pJJOraBi9aMv0-fExIUG0XbifJ0CYZ5egimokPd4JmhnRKPdurhHydTF9nXfq3IffRtvuSwBww"}
+        return   Request().post(url=url,data=data,cookies=cookies)
+
+    def question_bank_list(self):
+        url="http://192.168.1.202:8114//manageapi/testquestionbank/getlist"
+        data = {
+            "bank_type": 0,
+            "by": "1",
+            "kw": "",
+            "order": "created_time",
+            "organization_id": "1",
+            "pageNum": 1,
+            "pageSize": 2000
+                     }
+        cookies={"safetyapplication":"o3wmzA7NrDc7vPGj38-r17r8pBKzQiNyP6bOKWAd97VkmqaGH-yy5-rNJEP7fLwBTGDbIg7v-WBTxjz473rJcpov3rg20ZH2-BgiYXIXOgODGiHOMIKWW2Jht3q1qG6BQo14U4EykpP6kyL8e7gWulpbh8iop6u7tsKSsA8FPplWUOafHUwyTpLflLr9RC5f1KgshB_cloX9F8mF8tQzr6EyqNzdKmgz3tt51anl1ESqzEC8IQNj5iM7tdopUEZZKBZb9gWdWi5NCUV8Ir43lGb3v71a8WiFFyO1HzdiTYT73VoyQIg6q-ZItEjtigv6FTg58YHYvHBQXmjjorBvfxg850lSJXvptFlO0ACI_HFHPwXxlKxdeR-SJPe1pJJOraBi9aMv0-fExIUG0XbifJ0CYZ5egimokPd4JmhnRKPdurhHydTF9nXfq3IffRtvuSwBww"}
+        res = Request().post(url=url,data=data,cookies=cookies)
+        return    res["body"]["data"]
 if __name__ == '__main__':
-
-    # url = ConfigYaml().get_conf_url()+"/authorizations/"
-    # url = "http://192.168.1.202:8114"+"//manageapi/testquestionbank/add/"
-    # data = {
-    #               "bank_type": 1,
-    #               "name": "ces22hi",
-    #               "organization_id": 1
-    #
-    #             }
-    # cookies={"safetyapplication":"fabpc29FNsrIwcWLkN6o5xjA_YWVI_PKxHBn1gspxGIpnN5BOSe9_tZ23UZlBqcrAFyKYkPXt5xlG2adInbFNRkV8R-cDtA0SeFqssSLNzZUOJyaqUrp-QdOm7Qft7MWdprj0NSAqxzE6i8bZ7iy4Dwaz2zZm0W9QGAu6Gy1Pzf3XPOyDaSP6Cq0f8xcALzjxPA6k44eeRNZCyI-Uu40h01NWMAVfCebIEhiXKNIMM49FhL4iSU8_qLzkBTT_2Chw4zkAmSvi7cD6-yK75tq36kCkYiO950l9ya5XQeZDCOFUcTcXhmXwLOYl77C3H5QCMOc_Y-TtfBevzajcgHPYySk_bwTHdWO0BHNnKQA6V8eVot9E5jTVmn0bCL60ipHJhxlSwF3oyE3yK6IsaDNf2oVCjKJxjKJ_6XM5D8HOvy5cC-SoBmZ590hfhzzLVsCCz8kbw"}
-    # print(Request().post(url=url,data=data,cookies=cookies))
-
-    url = "http://192.168.1.202:8114"+"/manageapi/accountapi/Login"
-    data = {
-                 "email": "admin", "password": "3baf6566eeaeb9f154db656002c010c6", "verifycode": "3e4i", "rememberme": 0
-
-                }
-    cookies={"safetyapplication":"fabpc29FNsrIwcWLkN6o5xjA_YWVI_PKxHBn1gspxGIpnN5BOSe9_tZ23UZlBqcrAFyKYkPXt5xlG2adInbFNRkV8R-cDtA0SeFqssSLNzZUOJyaqUrp-QdOm7Qft7MWdprj0NSAqxzE6i8bZ7iy4Dwaz2zZm0W9QGAu6Gy1Pzf3XPOyDaSP6Cq0f8xcALzjxPA6k44eeRNZCyI-Uu40h01NWMAVfCebIEhiXKNIMM49FhL4iSU8_qLzkBTT_2Chw4zkAmSvi7cD6-yK75tq36kCkYiO950l9ya5XQeZDCOFUcTcXhmXwLOYl77C3H5QCMOc_Y-TtfBevzajcgHPYySk_bwTHdWO0BHNnKQA6V8eVot9E5jTVmn0bCL60ipHJhxlSwF3oyE3yK6IsaDNf2oVCjKJxjKJ_6XM5D8HOvy5cC-SoBmZ590hfhzzLVsCCz8kbw"}
-    print(Request().post(url=url,data=data))
+    print(question_bank().question_bank_list())
+    #print(question_bank().question_bank_add(url=ConfigYaml().get_testYaml_question_bank_url()))
+    #print(Request().post(url="http://192.168.1.202:8114//manageapi/accountapi/VerifyCodeImg?height=35&width=100&fontsize=20&"))

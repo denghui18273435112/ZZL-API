@@ -5,6 +5,7 @@ current =os.path.abspath(__file__)                          #当前文件的路�
 BASE_DIR = os.path.dirname(os.path.dirname(current))        # 当前项目的绝对路径
 _config_path = BASE_DIR +os.sep+"config"                   #定义config的路径
 _config_file = _config_path +os.sep+"conf.yaml"            #定义conf.yaml的路径
+_test_file = _config_path +os.sep+"testYaml.yaml"            #定义test.yaml的路径
 _yonglie_file = _config_path +os.sep+"yonglie.yaml"            #定义conf.yaml的路径
 _db_config_file = _config_path +os.sep+"db_conf.yaml"     #定义db_conf.yaml的路径
 _log_path = BASE_DIR +os.sep+"logs"                        #定义log文件生产路径
@@ -16,7 +17,6 @@ def get_report_path():
     :return: report文件夹的绝对路径
     """
     return  _report_path
-
 
 def get_config_path():
     """
@@ -30,13 +30,17 @@ def get_db_config_cpath():
     """
     return _db_config_file
 
+def get_test_file_cpath():
+    """
+    :return: _test_file.yaml 文件所在的路径
+    """
+    return _test_file
+
 def get_config_file():
     """
     :return: conf.yaml文件所在的路径
     """
     return  _config_file
-
-
 
 def get_data_path():
     """
@@ -67,9 +71,11 @@ class ConfigYaml:
         self.db_config  return 遍历   get_config_file方法中 db_conf.yaml文件的所有值
         :return:
         """
+        self.testYaml = utils.YamlUtil.YamlReaber(get_test_file_cpath()).data()
         self.config = utils.YamlUtil.YamlReaber(get_config_file()).data()
         self.config_all = utils.YamlUtil.YamlReaber(get_config_file()).data_all()
         self.db_config = utils.YamlUtil.YamlReaber(get_db_config_cpath()).data()
+
 
     def get_report_path(self):
         """
@@ -82,8 +88,6 @@ class ConfigYaml:
         :return: report文件夹的绝对路径
         """
         return  _yonglie_file
-
-
 
     def get_excel_file(self):# 获取
         """
@@ -102,6 +106,35 @@ class ConfigYaml:
         :return: url地址
         """
         return self.config["test_environment"]["url"]
+
+    def get_testYaml_question_bank_url(self):
+        """
+        :return: url地址
+        """
+        return self.testYaml["question_bank"]["url"]
+
+    def get_testYaml_question_bank_bank_type(self):
+        """
+        :return: url地址
+        """
+        return self.testYaml["question_bank"]["bank_type"]
+
+    def get_testYaml_question_bank_name(self):
+        """
+        :return: url地址
+        """
+        return self.testYaml["question_bank"]["name"]
+    def get_testYaml_question_bank_organization(self):
+        """
+        :return: url地址
+        """
+        return self.testYaml["question_bank"]["organization"]
+
+    def get_testYaml_question_bank_safetyapplication(self):
+        """
+        :return: url地址
+        """
+        return self.testYaml["question_bank"]["safetyapplication"]
 
     def get_conf_log(self):
         """
@@ -122,7 +155,6 @@ class ConfigYaml:
         """
         return  self.db_config[db_alias]
 
-
     def get_email_info(self):
         """
         :param  获取eamil的相关信息
@@ -139,7 +171,7 @@ if __name__ == '__main__':
     #print(ConfigYaml().get_db_conf_info("db_1"))
     # print(ConfigYaml().get_excel_file())
     #print(ConfigYaml().get_excel_sheet())
-    print(ConfigYaml().get_config_file())
+    print(ConfigYaml().get_testYaml_question_bank_url())
 
 
 

@@ -1,0 +1,7 @@
+---
+question_bank: #测试环境的地址
+    url: "http://192.168.1.202:8114//manageapi/testquestionbank/add"
+    bank_type: "1"
+    name: "测试123"
+    organization_id: "1"
+    safetyapplication: "LXC2ekH9csKHnyMCKeu7r9HclCitbBXBMvxo39pn-8B0Q66sasotyL881kZ5MPWldNHZf6V2pHlXaOT-punaLTvwexQ3Qk77uF3YLEXRAyCpndqQ8gagsmJnECa9upOebuANH_t1gj8dkJ0dgKEsyJ8dD57yo8P4gYTf8VcmMMmJ5gr5hz0CYWuFzBtrWh8dFxqkBZY4tnQ6XrEIODaesylwnCqA1TBnygngJVd_UMvsS9PrIOoAi-1LCjys1I8eEbnkI7ksPny8JJFpoYbLB19jdrf_nKZ-P_ASMw42kN7jhlAqAso_MYs5WT8kHfbFqdW6MOYjp2z_f0x__t4ucppwDNcaqJtZIo3uohaw9a-2sBbc1nJ-OKAgG1U_uGUX_YlL_1IZ1kpfTt74pOau5h9t3FydG8W0zeZkLoLYaHzmT6ZIXrQ9iboVNDWkEiIhteyvw"
